@@ -1990,7 +1990,7 @@
   v2: false
   v3: false
   v3_1: true
-
+ 
 - name: Zuplo (Docs)
   category: documentation 
   language: TypeScript / JavaScript
@@ -2001,4 +2001,15 @@
     your API using the built-in route designer or import your OpenAPI v3.1 descriptions. 
   v2: false
   v3: false
+  v3_1: true
+
+- name: OpenAPI Commander
+  category:
+    - code-generators
+    - sdk
+  language: Node.js / CLI
+  link: https://www.npmjs.com/package/openapi-commander
+  description: Generate a Node.js command line tool from an OpenAPI definition.
+  v2: false
+  v3: true
   v3_1: true
